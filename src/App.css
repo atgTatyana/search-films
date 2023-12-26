@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+form label, form button, .favorites-button {
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 5px;
+}
+
+button {
+  cursor: pointer;
+  color: rgb(91, 91, 219);
+}
+
+form input {
+  margin-left: 10px;
+  padding: 5px;
+  width: 300px;
+  font-size: 1.1em;
+}
+
+li button {
+  font-weight: 600;
+  padding: 2px;
+}
+
+.film {
+  margin-bottom: 10px;
+}
+
+.film-data {
+  display: flex;
+  gap: 30px;
+  align-items: start;
+}
+
+.film-card {
+  margin: 30px;
+  display: flex;
+  gap: 30px;
+  font-weight: 600;
+  font-size: 1.1em;
+  width: 800px;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
